@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+div {
+font-family: 'Inconsolata';
+font-size: 25px;
+}
+h1 {
+font-family: 'Inconsolata';
+}
+h6 {
+font-family: 'Inconsolata';
+}
+button {
+    font-family: 'Inconsolata';
+}
+navbar {
+    font-family: 'Inconsolata';
+}
+    </style>
+    <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <title>Zane Schneider</title>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>    
+          <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color:lightblue">
+        <nav class="navbar navbar-expand-sm bg-#f2dc00 navbar-dark">  
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#Jumbotron">Jumbotron</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Navbar">Navbar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Thumbnails">Thumbnails</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Collapsible">Collapsible</a>
+            </li>
+          </ul>
+        </nav>
+        <center>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <button type="button" class="btn btn-outline-warning btn-block"><a href="https://pokemondb.net/pokedex/psyduck">Pokedex</a></button>
+                    </div>
+                    <br>
+                    <div class="col-lg-4">
+                        <button type="button" class="btn btn-outline-warning btn-block"><a href="https://pokemon.gameinfo.io/en/pokemon/54-psyduck">Pokemon Go</a></button>
+                    </div>
+                    <br>
+                    <div class="col-lg-4">
+                        <button type="button" class="btn btn-outline-warning btn-block"><a href="https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)">Bulbapedia</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="jumbotron" style="background-color:lightblue" id="Jumbotron">
+                <div class="container">
+                    <h1><font color=white>Psyduck</h1>
+                    <h5>Duckis Autist</h5>
+            </div>
+            <div style="background-color:#f2dc00;" id="Navbar">
+                <nav class="navbar navbar-expand-sm">
+                    <span class="navbar-text">
+                        Other Sites
+                    </span>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://zaschneider.github.io/ecs81718/HTML/practice1.html">Practice 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://zaschneider.github.io/ecs81718/HTML/tables.html">Tables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://zaschneider.github.io/ecs81718/HTML/FavoriteAnimal.html">Favorite Animal</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>    
+            </div>
+            <div class="container-fluid" id="Thumbnails">
+                <div class="row">
+                    <div class="col-lg-4" style="background-color:#f2dc00">
+                        <img src="https://cdn.bulbagarden.net/upload/thumb/5/53/054Psyduck.png/250px-054Psyduck.png">
+                        <p>Psyduck suffers from constant headaches</p>
+
+                    </div>
+                    <div class="col-lg-4" style="background-color:lightblue">
+                        <img src="http://i0.kym-cdn.com/photos/images/original/001/067/395/5f8.png" width=225 height=250>
+                        <p>Psyduck is awfully shy</p>
+                    </div>
+                    <div class="col-lg-4" style="background-color:#f2dc00">
+                        <img src="https://orig00.deviantart.net/a169/f/2012/013/2/4/054_psyduck_by_reika_world-d4m7x84.png" width=225 height=250>
+                        <p>Psyduck sure is wacky sometimes</p>
+                    </div>
+                </div>            
+            </div>
+            <br>
+            <a href="https://www.pokemoncenter.com/pok%C3%A9mon-gallery-figure%3A-psyduck%E2%80%94confusion-703-00005" data-toggle="tooltip" title="Cop a Duck!">If You're Really Into Psyduck</a>
+            <br>
+            <br>
+            <div class="dropdown" id="Collapsible">
+              <button type="button" class="btn btn-warning dropdown-toggle btn-block" data-toggle="dropdown">
+                Headaches Info
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Psyduck is constantly stunned by its headache and is unable to think very clearly. It usually stands immobile, trying to calm its headache.</a>
+              </div>
+            </div>
+     <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.shitpostbot.com/img/sourceimages/psyduck-blush-57d205d2c7705.jpeg" alt="Duck1" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/564x/21/e6/9d/21e69d17172c3374a16b8723094d0b28--happy-new-year-everyone-pikachu.jpg" alt="Duck2" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="https://pa1.narvii.com/5877/fa9f0c85612453dfdd897402699bc31d6e113a8e_hq.gif" alt="Duck3" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+           </center>
+        
+    </body>
+</html>
